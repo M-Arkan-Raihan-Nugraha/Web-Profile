@@ -103,6 +103,31 @@ header p {
   font-size: 14px;
 }
 
+.club {
+  display: flex;
+  gap: 320px;
+  margin: 15px;
+}
+
+.name {
+  background-color: #e0ecff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 15px;
+  text-align: center;
+}
+
+.liv img {
+  width: 160px;
+  height: auto;
+}
+
+.psb img {
+  width: 300px;
+  height: auto;
+}
+
 footer {
   text-align: center;
   padding: 20px;
