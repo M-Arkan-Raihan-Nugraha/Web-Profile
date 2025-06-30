@@ -65,42 +65,63 @@ header p {
 .education-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 20px;
+  justify-content: center;
 }
 
 .edu {
   background-color: #e0ecff;
   margin-right: 10px;
   text-decoration: none;
-  font-weight: bold;
   color: black;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 14px;
+}
+
+.edu:hover {
+  font-weight: bold;
 }
 
 .skills-list {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
 }
 
-.skill {
+.skills-list a {
   background-color: #e0ecff;
+  text-decoration: none;
+  color: black;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 14px;
+}
+
+.skills-list a:hover {
+  font-weight: bold;
+}
+
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }
 
 .social-media a {
   background-color: #e0ecff;
   margin-right: 15px;
   text-decoration: none;
-  font-weight: bold;
   color: black;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 14px;
+}
+
+.social-media a:hover {
+  font-weight: bold;
 }
 
 .club {
@@ -116,6 +137,15 @@ header p {
   font-size: 14px;
   margin: 15px;
   text-align: center;
+}
+
+.name a {
+  text-decoration: none;
+  color: black;
+}
+
+.name:hover {
+  font-weight: bold;
 }
 
 .liv img {
